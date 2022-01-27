@@ -1,0 +1,5 @@
+
+rootProject.name = "AdsTesting"
+include ':app'
+include ':myapplication'
+include ':adslib'
