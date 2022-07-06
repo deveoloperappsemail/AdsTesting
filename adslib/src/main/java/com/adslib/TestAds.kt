@@ -20,6 +20,10 @@ class TestAds {
         val string = "hello"
     }
 
+    private fun newFun(){
+
+    }
+
     private fun storeAds(context: Context) {
         val appid: String = SharePreferenceUtils.getStringData(context, Constants.APP_ID).toString()
         if (appid == null) {
