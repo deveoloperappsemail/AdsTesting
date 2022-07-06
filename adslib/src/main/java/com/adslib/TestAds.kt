@@ -14,7 +14,10 @@ class TestAds {
         } else {
             storeAds(context)
         }
+    }
 
+    fun testFunction() {
+        val string = "hello"
     }
 
     private fun storeAds(context: Context) {
